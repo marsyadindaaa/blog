@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Ulasan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ulasan Produk</h1>
+    </header>
+
+    <section id="reviews">
+        <h2>Ulasan Pengguna</h2>
+        <div id="review-list">
+            <!-- Ulasan akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <section id="add-review">
+        <h2>Tambahkan Ulasan Anda</h2>
+        <form id="review-form">
+            <label for="name">Nama Anda:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="review">Ulasan:</label><br>
+            <textarea id="review" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Kirim Ulasan</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ulasan Produk</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
